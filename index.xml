@@ -184,19 +184,22 @@
 
 &lt;p&gt;Yes, but you don&amp;rsquo;t &lt;em&gt;have&lt;/em&gt; to use a data structure if you&amp;rsquo;re looking for polymorphism.&lt;/p&gt;
 
-&lt;p&gt;Uncle Bob states:
-&amp;gt; &amp;ldquo;Objects hide their data behind abstractions and expose functions that operate on that data.&amp;rdquo;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Objects encourage polymorphic code.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Uncle Bob states:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Data structures expose their data and heave no meaningful functions.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Objects hide their data behind abstractions and expose functions that operate on that data.&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Data structures encourage procedural code.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Therefore, objects encourage polymorphic code.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Data structures expose their data and have no meaningful functions.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Therefore, data structures encourage procedural code.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The two are virtual opposites of one another. It is important to know when to use a data structure and when to use an object.&lt;/p&gt;
@@ -207,11 +210,11 @@
 
 &lt;p&gt;You &lt;em&gt;never&lt;/em&gt; want to end up with a construct that is half object and half data structure. When you have a hybrid, you get all the &lt;strong&gt;problems associated with data structures&lt;/strong&gt;, and all the &lt;strong&gt;problems associated with objects&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Your hybrids will be callable throughout your system via their public methods, but they will also have publicly visible state that tempts other functions to use it as a data structure. The innards of the hybrid will &lt;strong&gt;become exposed&lt;/strong&gt;, and the users of the code will become &lt;strong&gt;tied to it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Your hybrids will be callable throughout your system via their public methods, but they will also have publicly visible state that tempts other functions to use them as data structures. The innards of your hybrids will &lt;strong&gt;become exposed&lt;/strong&gt;, and the users of the code will become deeply &lt;strong&gt;tied to them&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;These hybrids not only make it &lt;strong&gt;difficult to add new functions&lt;/strong&gt; to your system (because all your polymorphic objects must change), but they also make it &lt;strong&gt;difficult to add new similar data structures&lt;/strong&gt; (because all the functions that operate on them must change).&lt;/p&gt;
 
-&lt;p&gt;Before you know it, you&amp;rsquo;ve solidified your software into a &lt;strong&gt;mess&lt;/strong&gt; that takes a tremendous effort to fix. You need to modify your objects, but you can&amp;rsquo;t because most of the system depends on its internals.&lt;/p&gt;
+&lt;p&gt;Before you know it, you&amp;rsquo;ve solidified your software into a &lt;strong&gt;mess&lt;/strong&gt; that takes a tremendous effort to fix. You need to modify your objects, but you can&amp;rsquo;t because most of the system depends on their internals.&lt;/p&gt;
 
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
