@@ -11,10 +11,10 @@
     
     <item>
       <title>Objects vs Data Structures</title>
-      <link>https://byxor.github.io/post/Objects%20vs%20Data%20Structures/</link>
+      <link>https://byxor.github.io/post/Objects-vs-Data-Structures/</link>
       <pubDate>Sun, 15 Jan 2017 19:17:37 +0000</pubDate>
       
-      <guid>https://byxor.github.io/post/Objects%20vs%20Data%20Structures/</guid>
+      <guid>https://byxor.github.io/post/Objects-vs-Data-Structures/</guid>
       <description>
 
 &lt;p&gt;Object Oriented Programming is fantastic. We can use it to bind data and behaviour into one, and that gives us a lot of power. However, with great power comes great responsibility, and handling responsibility is almost never a programmer&amp;rsquo;s strong point.&lt;/p&gt;
