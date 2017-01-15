@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://byxor.github.io/index.xml</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2017 15:10:39 +0000</lastBuildDate>
+    <atom:link href="http://byxor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://byxor.github.io/post/first/</link>
+      <pubDate>Sun, 15 Jan 2017 15:10:39 +0000</pubDate>
+      
+      <guid>http://byxor.github.io/post/first/</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
