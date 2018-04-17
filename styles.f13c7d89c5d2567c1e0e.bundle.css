@@ -1,0 +1,1 @@
+.monospace{font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace}.blinking{-webkit-animation:1.3s linear infinite blinker;animation:1.3s linear infinite blinker}@-webkit-keyframes blinker{0%,60%{opacity:1}10%,50%{opacity:0}}@keyframes blinker{0%,60%{opacity:1}10%,50%{opacity:0}}
