@@ -39,8 +39,10 @@ public static String fizzbuzz(int n) {
         return "FizzBuzz";
     } else if (dividesByThree) {
         return "Fizz";
-    } else {
+    } else if (dividesByFive) {
         return "Buzz";
+    } else {
+        return "" + n;
     }
 }
 ```
@@ -56,14 +58,18 @@ def fizzbuzz(n):
         return "FizzBuzz"
     elif divides_by_three:
         return "Fizz"
-    else:
+    elif divides_by_five:
         return "Buzz"
+    else:
+        return str(n)
 ```
 
 #### C
 
 ```c
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 void fizzbuzz(int n, char *buffer, size_t length) {
     const int dividesByThree = n % 3 == 0;
@@ -75,8 +81,10 @@ void fizzbuzz(int n, char *buffer, size_t length) {
         result = "FizzBuzz";
     } else if (dividesByThree) {
         result = "Fizz";
-    } else {
+    } else if (dividsByFive) {
         result = "Buzz";
+    } else {
+        snprintf(result, length, "%d", n);
     }
 
     strncpy(buffer, result, length);
@@ -107,10 +115,12 @@ Let's take some of these similarities and see what we can change.
 
 ### Alignment
 
-> What would it look like if the text was right-aligned?
+What would it look like if the text was right-aligned?
 
 <pre class="language-c" style="text-align: right;">
 <code class="language-c">#include &lt;string.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 void fizzbuzz(int n, char *buffer, size_t length) {
     const int dividesByThree = n % 3 == 0;
@@ -122,8 +132,10 @@ void fizzbuzz(int n, char *buffer, size_t length) {
         result = "FizzBuzz";
     } else if (dividesByThree) {
         result = "Fizz";
-    } else {
+    } else if (dividsByFive) {
         result = "Buzz";
+    } else {
+        snprintf(result, length, "%d", n);
     }
 
     strncpy(buffer, result, length);
@@ -138,6 +150,8 @@ Let's fix that.
 
 <pre class="language-c" style="text-align: right !important;">
 <code class="language-c">#include &lt;string.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 void fizzbuzz(int n, char *buffer, size_t length) {
 const int dividesByThree = n % 3 == 0;   &nbsp;
@@ -149,10 +163,11 @@ if (dividesByThree && dividesByFive) {   &nbsp;
 result = "FizzBuzz";       &nbsp;
 } else if (dividesByThree) {   &nbsp;
 result = "Fizz";       &nbsp;
-} else {   &nbsp;
+} else if (dividesByFive) {   &nbsp;
 result = "Buzz";       &nbsp;
+} else {   &nbsp;
+snprintf(result, length, "%d", n);       &nbsp;
 }   &nbsp;
-
 strncpy(buffer, result, length);   &nbsp;
 }
 </code>
