@@ -2,5 +2,5 @@
     "title": "LIMP",
     "description": "A Functional Programming Language.",
     "infoUrl": "https://www.github.com/byxor/limp",
-    "tags": ["Python 3.6"]
+    "tags": ["Python 3.6", "Turing Complete"]
 }
