@@ -1,0 +1,6 @@
+{
+    "title": "Shootemup",
+    "description": "A toy spaceship shooter to practice modern JVM features",
+    "infoUrl": "https://www.github.com/byxor/shootemup",
+    "tags": ["Kotlin", "Gradle", "Game"]
+}
