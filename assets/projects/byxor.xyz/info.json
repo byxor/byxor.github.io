@@ -2,5 +2,5 @@
     "title": "byxor.xyz",
     "description": "This very website.",
     "infoUrl": "https://www.github.com/byxor/website",
-    "tags": ["Angular 5", "TypeScript"]
+    "tags": ["Angular 5", "TypeScript", "CSS Grid"]
 }
