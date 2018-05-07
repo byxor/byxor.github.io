@@ -92,7 +92,7 @@ ng build --prod
 ```
 
 * The `--prod` flag tells the compiler to minify your HTML/CSS/JavaScript files. This makes them smaller and results in faster load times.
-* The compiled files will be in the `dist` folder relative to your Angular project.
+* The compiled files will be in the `dist` directory relative to your Angular project.
 
 ![Image of GitHub Create Repository Page](/assets/blog/deploying-angular-apps-on-github-pages/dist-tree.png)
 
