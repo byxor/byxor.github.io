@@ -144,6 +144,8 @@ If everything was done correctly _(and if my instructions were clear enough)_, y
 
 ![Image of GitHub Create Repository Page](/assets/blog/deploying-angular-apps-on-github-pages/website.png)
 
+You can find the example application from this tutorial [online here](https://john-smith-23.github.io).
+
 ## 8. Optional: Use a Custom Domain Name
 
 Do you own a domain (e.g. `john-smith.com`) that you'd like to link to your website?
