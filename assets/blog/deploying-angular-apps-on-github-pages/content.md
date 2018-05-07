@@ -214,6 +214,6 @@ We can easily update our application by **re-deploying** it to the repository we
 
 ## Feedback?
 
-Having trouble? Send a tweet to [@brandnewbyxor](https://twitter.com/brandnewbyxor) and I'll try and help.
+Having trouble? Send a tweet to [@brandnewbyxor](https://twitter.com/brandnewbyxor) and I'll try to help.
 
 You can also tweet me if I've made a mistake so I can correct it.
