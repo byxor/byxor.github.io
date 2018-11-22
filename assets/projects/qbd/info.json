@@ -1,0 +1,6 @@
+{
+    "title": "qb decompiler",
+    "description": "A ByteCode Decompiler for Tony Hawk's Underground 2.",
+    "infoUrl": "https://www.github.com/byxor/qbd",
+    "tags": ["Go", "Decompiler"]
+}
