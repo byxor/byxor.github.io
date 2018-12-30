@@ -188,15 +188,19 @@ THE SOFTWARE.
 MIT
 MIT
 
+@angular/common@5.2.10
+MIT
+MIT
+
+ngx-spinner@2.0.0
+MIT
+MIT
+
 @angular/platform-browser@5.2.10
 MIT
 MIT
 
 angular2-markdown@2.2.3
-MIT
-MIT
-
-@angular/common@5.2.10
 MIT
 MIT
 
