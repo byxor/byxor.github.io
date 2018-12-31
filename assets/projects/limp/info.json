@@ -1,0 +1,6 @@
+{
+    "title": "LIMP",
+    "description": "A Functional Programming Language with 99% Test Coverage.",
+    "infoUrl": "https://www.github.com/byxor/limp",
+    "tags": ["Python 3.6", "Interpreter"]
+}

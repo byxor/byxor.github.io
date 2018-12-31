@@ -1,0 +1,6 @@
+{
+    "title": "wsio",
+    "description": "Websocket I/O Helpers for Go.",
+    "infoUrl": "https://www.github.com/byxor/wsio",
+    "tags": ["Go", "I/O"]
+}

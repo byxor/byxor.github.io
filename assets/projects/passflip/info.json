@@ -1,0 +1,6 @@
+{
+    "title": "Passflip",
+    "description": "A Password Manager to mutate your password for every website/application.",
+    "infoUrl": "https://www.github.com/byxor/passflip",
+    "tags": ["Python 3", "SHA-224"]
+}
