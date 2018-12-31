@@ -1,0 +1,6 @@
+{
+    "title": "Harry Potter 2 Engine",
+    "description": "Simulating the physics of a classic 3D Platformer from the early 2000s.",
+    "infoUrl": "https://www.github.com/byxor/HarryPotter2Engine",
+    "tags": ["Unity3D", "C#", "Game"]
+}
