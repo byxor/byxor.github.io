@@ -1,6 +1,0 @@
-{
-    "title": "LIMP Server",
-    "description": "A Rest API to evaluate LIMP code remotely. Reduces server load via rate limiting.",
-    "infoUrl": "https://www.byxor.xyz/try-limp",
-    "tags": ["Python 3", "Flask"]
-}
