@@ -162,6 +162,9 @@ I wrote a bash script to automate the process for me.
 ```bash
 #!/bin/bash
 
+set -e
+trap 'echo "ERROR ^^^"' ERR
+
 if [ "$#" -ne 3 ]; then
     echo "Expecting parameters: <source_directory> <deployment_directory> <domain>"
     exit 1
