@@ -1,0 +1,6 @@
+{
+    "title": "Nagatron",
+    "description": "Shouts at you when your directories fill up with unexpected junk.",
+    "infoUrl": "https://www.github.com/byxor/nagatron",
+    "tags": ["C++", "Catch 2"]
+}
