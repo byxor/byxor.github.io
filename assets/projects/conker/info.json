@@ -1,6 +1,0 @@
-{
-    "title": "Conker",
-    "description": "Contracts for Python, inspired by Eiffel.",
-    "infoUrl": "https://www.github.com/byxor/conker",
-    "tags": ["Python", "Design-by-Contract"]
-}
