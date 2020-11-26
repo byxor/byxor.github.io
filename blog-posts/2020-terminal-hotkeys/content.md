@@ -28,7 +28,7 @@ Ctrl-n: Go to the next command in history.
 
 If you're a regular emacs user, you'll _(literally)_ be **uncomfortably familiar** with these hotkeys. In fact, I stumbled across them by accident through my emacs muscle memory.
 
-![Hand cramp](/blog-posts/terminal-hotkeys/cramp.png)
+![Hand cramp](/blog-posts/2020-terminal-hotkeys/cramp.png)
 <mid>_(After 10 minutes of emacs)_</mid>
 
 ### Known working terminals:
