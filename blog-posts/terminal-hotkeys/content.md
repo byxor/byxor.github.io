@@ -4,7 +4,7 @@ The (subjective) lack of an intuitive editing experience provided by many termin
 
 ### Hotkeys:
 
-```
+```yaml
 Ctrl-b: Go back 1 character.
 Ctrl-f: Go forward 1 character.
  Alt-b: Go back 1 word.
@@ -29,6 +29,7 @@ Ctrl-n: Go to the next command in history.
 If you're a regular emacs user, you'll _(literally)_ be **uncomfortably familiar** with these hotkeys. In fact, I stumbled across them by accident through my emacs muscle memory.
 
 ![Hand cramp](/blog-posts/terminal-hotkeys/cramp.png)
+<mid>_(After 10 minutes of emacs)_</mid>
 
 ### Known working terminals:
 
@@ -43,5 +44,7 @@ For the record, I've used these hotkeys on...
 * **B)** Enjoy the command-editing experience slightly more than you used to
 * **C)** All of the above.
 
-Until I write something more substantial, have a good one!  
+---
+
+Until I write something more substantial, have a good one.  
 \- _Brandon_
